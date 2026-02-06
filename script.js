@@ -199,7 +199,7 @@ function zoomVideo(element) {
 
 // Initialize presentation when DOM is loaded
 document.addEventListener('DOMContentLoaded', () => {
-    const presentation = new PresentationController();
+    window.presentation = new PresentationController();
 
     // Add smooth scroll behavior
     document.documentElement.style.scrollBehavior = 'smooth';
