@@ -29,7 +29,8 @@ class PresentationController {
             13: "2nd Visit - Additional Items",
             14: "2nd Visit - Gallery Part 4",
             15: "2nd Visit - Gallery Consolidated",
-            16: "Vermi Compost Gallery"
+            16: "Vermi Compost Gallery",
+            17: "Vermi Compost Sales"
         };
 
         this.init();
