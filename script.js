@@ -12,26 +12,26 @@ class PresentationController {
         this.slideCounter = document.getElementById('slideCounter');
         this.video = document.getElementById('presentationVideo');
 
-        // Slide headings
+        this.totalSlides = 18;
         this.slideHeadings = {
-            1: "1st Visit - Title",
-            2: "Interactive Index",
-            3: "1st Visit - Inventory",
-            4: "1st Visit - Gallery",
-            5: "2nd Visit - Title",
-            6: "2nd Visit - Inventory Partially",
-            7: "2nd Visit - Items Not found",
-            8: "2nd Visit - Additional Items",
-            9: "2nd Visit - Video",
-            10: "2nd Visit - Additional Items Part 2",
-            11: "2nd Visit - Gallery Part 1",
-            12: "2nd Visit - Gallery Part 3",
-            13: "2nd Visit - Videos",
-            14: "2nd Visit - Additional Items Part 3",
-            15: "2nd Visit - Gallery Part 4",
-            16: "2nd Visit - Gallery Consolidated",
-            17: "Vermi Compost Gallery",
-            18: "Crops Sales & Receivable"
+            0: "Presentation Dashboard",
+            1: "1st Visit Items Overview",
+            2: "1st Visit Video",
+            3: "1st Visit Gallery",
+            4: "Inventory Partially",
+            5: "Items Not Found",
+            6: "Additional Items",
+            7: "Field Video",
+            8: "Additional Items (P2)",
+            9: "Gallery Part 1",
+            10: "Gallery Part 3",
+            11: "Field Videos (P2)",
+            12: "Additional Items (P3)",
+            13: "Gallery Part 4",
+            14: "Consolidated Gallery",
+            15: "Vermi Compost Gallery",
+            16: "Crops Sales & Receivable",
+            17: "Other Sales Overview"
         };
 
         this.init();
@@ -183,15 +183,30 @@ function zoomVideo(element) {
     const caption = document.getElementById('zoomCaption');
 
     const video = element.querySelector('video');
-    const captionText = element.parentElement.querySelector('.video-caption-compact');
+    // Try to find caption in parent or siblings
+    const captionElement = element.parentElement.querySelector('.video-caption-compact') ||
+        element.querySelector('.slide-title');
 
     // Hide image, show video
     modalImg.style.display = 'none';
     modalVideo.style.display = 'block';
 
     modal.classList.add('active');
-    modalVideo.src = video.querySelector('source').src;
-    caption.textContent = captionText.textContent;
+
+    // Support both <source> and direct <video src>
+    const source = video.querySelector('source');
+    modalVideo.src = source ? source.src : video.src;
+
+    if (captionElement) {
+        caption.textContent = captionElement.textContent;
+    } else {
+        caption.textContent = "Video Gallery";
+    }
+
+    // Play video automatically
+    modalVideo.play().catch(error => {
+        console.log("Auto-play was prevented:", error);
+    });
 
     // Prevent body scroll when modal is open
     document.body.style.overflow = 'hidden';

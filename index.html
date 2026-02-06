@@ -31,363 +31,171 @@
     <!-- Presentation Container -->
     <div class="presentation-container" id="presentationContainer">
 
-        <!-- Slide 1: Title Slide -->
+        <!-- Slide 1: Interactive Index -->
         <section class="slide active" data-slide="1">
             <div class="slide-content">
-                <div class="title-wrapper">
-                    <h1 class="main-title">1st Visit Shorki</h1>
-                    <div class="subtitle">Agricultural Products Overview</div>
+                <h2 class="slide-title">Presentation Dashboard</h2>
+                <div class="index-full-container">
+                    <!-- 1st Visit Section -->
+                    <div class="index-section-group">
+                        <div class="index-group-title"><span>🌱</span> 1st Visit Overview</div>
+                        <ul class="index-list">
+                            <li onclick="presentation.goToSlide(1)"><span>01</span> First Visit Inventory</li>
+                            <li onclick="presentation.goToSlide(2)"><span>02</span> 1st Visit Video</li>
+                            <li onclick="presentation.goToSlide(3)"><span>03</span> Observation Images</li>
+                        </ul>
+                    </div>
+
+                    <!-- 2nd Visit Section -->
+                    <div class="index-section-group">
+                        <div class="index-group-title"><span>📦</span> 2nd Visit Data</div>
+                        <ul class="index-list">
+                            <li onclick="presentation.goToSlide(4)"><span>04</span> Inventory Partially Paid</li>
+                            <li onclick="presentation.goToSlide(5)"><span>05</span> Items Not Found</li>
+                            <li onclick="presentation.goToSlide(6)"><span>06</span> Additional Items Found (P1)</li>
+                            <li onclick="presentation.goToSlide(7)"><span>07</span> 2nd Visit Video</li>
+                            <li onclick="presentation.goToSlide(8)"><span>08</span> Additional Items Found (P2)</li>
+                            <li onclick="presentation.goToSlide(9)"><span>09</span> 2nd Visit Seeds Pictures</li>
+                            <li onclick="presentation.goToSlide(10)"><span>10</span> 2nd Visit Seeds Pictures-2</li>
+                            <li onclick="presentation.goToSlide(11)"><span>11</span> Seeds Videos</li>
+                            <li onclick="presentation.goToSlide(12)"><span>12</span> Additional Seeds</li>
+                            <li onclick="presentation.goToSlide(13)"><span>13</span> Additional Seeds Images</li>
+                            <li onclick="presentation.goToSlide(14)"><span>14</span> Consolidated Gallery</li>
+                        </ul>
+                    </div>
+
+                    <!-- Vermi Compost Section -->
+                    <div class="index-section-group">
+                        <div class="index-group-title"><span>🐛</span> Vermi Compost</div>
+                        <ul class="index-list">
+                            <li onclick="presentation.goToSlide(15)"><span>16</span> Vermi Compost Gallery</li>
+                            <li onclick="presentation.goToSlide(16)"><span>17</span> Crops Sales & Receivable</li>
+                            <li onclick="presentation.goToSlide(17)"><span>18</span> Other Sales Overview</li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="decorative-element"></div>
             </div>
-            <!-- Slide 2: Interactive Index -->
-            <section class="slide" data-slide="2">
-                <div class="slide-content">
-                    <h2 class="slide-title">Presentation Index</h2>
-                    <div class="index-container">
-                        <div class="index-grid">
-                            <!-- 1st Visit Card -->
-                            <div class="index-card" onclick="presentation.goToSlide(2)">
-                                <div class="index-icon">🌱</div>
-                                <h3>1st Visit</h3>
-                                <p>Inventory, Seeds and <br>Product Showcase</p>
-                            </div>
-                            <!-- 2nd Visit Card -->
-                            <div class="index-card" onclick="presentation.goToSlide(4)">
-                                <div class="index-icon">📦</div>
-                                <h3>2nd Visit</h3>
-                                <p>Inventory Updates, <br>Gallery and Videos</p>
-                            </div>
-                            <!-- Vermicompost Card -->
-                            <div class="index-card" onclick="presentation.goToSlide(16)">
-                                <div class="index-icon">🐛</div>
-                                <h3>Vermicompost</h3>
-                                <p>Vermi Compost Gallery <br>and Sales Overview</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <!-- Slide 3: Complete Inventory (2-Column Layout) -->
-            <section class="slide" data-slide="3">
-                <div class="slide-content">
-                    <h2 class="slide-title">Complete Inventory</h2>
-                    <div class="inventory-grid">
-                        <!-- Column 1 -->
-                        <div class="inventory-column">
-                            <table class="inventory-table">
-                                <thead>
-                                    <tr>
-                                        <th>#</th>
-                                        <th>Item Name</th>
-                                        <th>Qty</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td>1</td>
-                                        <td>Peas</td>
-                                        <td>1</td>
-                                    </tr>
-                                    <tr>
-                                        <td>2</td>
-                                        <td>Tomato</td>
-                                        <td>12</td>
-                                    </tr>
-                                    <tr>
-                                        <td>3</td>
-                                        <td>Cucumber</td>
-                                        <td>6</td>
-                                    </tr>
-                                    <tr>
-                                        <td>4</td>
-                                        <td>Watermelon</td>
-                                        <td>6</td>
-                                    </tr>
-                                    <tr>
-                                        <td>5</td>
-                                        <td>Muskmelon</td>
-                                        <td>6</td>
-                                    </tr>
-                                    <tr>
-                                        <td>6</td>
-                                        <td>Okra</td>
-                                        <td>1</td>
-                                    </tr>
-                                    <tr>
-                                        <td>7</td>
-                                        <td>DAP</td>
-                                        <td>12</td>
-                                    </tr>
-                                    <tr>
-                                        <td>8</td>
-                                        <td>Urea</td>
-                                        <td>12</td>
-                                    </tr>
-                                    <tr>
-                                        <td>9</td>
-                                        <td>Potash</td>
-                                        <td>12</td>
-                                    </tr>
-                                    <tr>
-                                        <td>10</td>
-                                        <td>Zinc</td>
-                                        <td>12</td>
-                                    </tr>
-                                    <tr>
-                                        <td>11</td>
-                                        <td>Boron</td>
-                                        <td>12</td>
-                                    </tr>
-                                    <tr>
-                                        <td>12</td>
-                                        <td>Humic Acid</td>
-                                        <td>12</td>
-                                    </tr>
-                                    <tr>
-                                        <td>13</td>
-                                        <td>Micronutrient</td>
-                                        <td>12</td>
-                                    </tr>
-                                    <tr>
-                                        <td>14</td>
-                                        <td>Nitrophos</td>
-                                        <td>12</td>
-                                    </tr>
-                                    <tr>
-                                        <td>15</td>
-                                        <td>Calcium</td>
-                                        <td>12</td>
-                                    </tr>
-                                    <tr>
-                                        <td>16</td>
-                                        <td>Magnesium</td>
-                                        <td>12</td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-
-                        <!-- Column 2 -->
-                        <div class="inventory-column">
-                            <table class="inventory-table">
-                                <thead>
-                                    <tr>
-                                        <th>#</th>
-                                        <th>Item Name</th>
-                                        <th>Qty</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td>17</td>
-                                        <td>Sulphate</td>
-                                        <td>12</td>
-                                    </tr>
-                                    <tr>
-                                        <td>18</td>
-                                        <td>Ferrous</td>
-                                        <td>12</td>
-                                    </tr>
-                                    <tr>
-                                        <td>19</td>
-                                        <td>Manganese</td>
-                                        <td>3</td>
-                                    </tr>
-                                    <tr>
-                                        <td>20</td>
-                                        <td>Cocakpit</td>
-                                        <td>4</td>
-                                    </tr>
-                                    <tr>
-                                        <td>21</td>
-                                        <td>Oxyrich (Fungicides)</td>
-                                        <td>13</td>
-                                    </tr>
-                                    <tr>
-                                        <td>22</td>
-                                        <td>Sulphar (Fungicides)</td>
-                                        <td>17</td>
-                                    </tr>
-                                    <tr>
-                                        <td>23</td>
-                                        <td>Lagao</td>
-                                        <td>1</td>
-                                    </tr>
-                                    <tr>
-                                        <td>24</td>
-                                        <td>Trifioxy (Fungicides)</td>
-                                        <td>20</td>
-                                    </tr>
-                                    <tr>
-                                        <td>25</td>
-                                        <td>Manyu (Fungicides)</td>
-                                        <td>20</td>
-                                    </tr>
-                                    <tr>
-                                        <td>26</td>
-                                        <td>Plate</td>
-                                        <td>400</td>
-                                    </tr>
-                                    <tr>
-                                        <td>27</td>
-                                        <td>Madian (Fungicides)</td>
-                                        <td>12</td>
-                                    </tr>
-                                    <tr>
-                                        <td>28</td>
-                                        <td>Tazyab</td>
-                                        <td>2</td>
-                                    </tr>
-                                    <tr>
-                                        <td>29</td>
-                                        <td>Spray Pump</td>
-                                        <td>6</td>
-                                    </tr>
-                                    <tr>
-                                        <td>30</td>
-                                        <td>Solar Plates</td>
-                                        <td>6</td>
-                                    </tr>
-                                    <tr>
-                                        <td>31</td>
-                                        <td>Motor Pump</td>
-                                        <td>2</td>
-                                    </tr>
-                                    <tr>
-                                        <td>32</td>
-                                        <td>Vermicompost</td>
-                                        <td>66</td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <!-- Slide 4: Media Gallery (Images + Video) -->
-            <section class="slide" data-slide="4">
-                <div class="slide-content">
-                    <h2 class="slide-title">1st Visit Gallery</h2>
-                    <div class="media-grid">
-                        <!-- Images Section (Left) -->
-                        <div class="images-section">
-                            <h3 class="media-section-title">Visit Pictures</h3>
-                            <div class="images-container" style="height: auto; max-height: 520px;">
-                                <div class="images-grid-2-1">
-                                    <div class="gallery-item-large" onclick="zoomImage(this)">
-                                        <img src="1st Visit/WhatsApp Image 2026-02-06 at 3.17.18 PM.jpeg"
-                                            alt="Peas bags">
-                                        <div class="gallery-caption-compact">Fertilizer & Seed Bags</div>
-                                    </div>
-                                    <div class="gallery-item-large" onclick="zoomImage(this)">
-                                        <img src="1st Visit/WhatsApp Image 2026-02-06 at 3.17.19 PM (1).jpeg"
-                                            alt="Seeds in bag">
-                                        <div class="gallery-caption-compact">Seeds Collection</div>
-                                    </div>
-                                    <div class="gallery-item-large" onclick="zoomImage(this)" style="height: 240px;">
-                                        <img src="1st Visit/WhatsApp Image 2026-02-06 at 3.17.19 PM.jpeg"
-                                            alt="Okra seeds">
-                                        <div class="gallery-caption-compact">Okra Seeds</div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Video Section (Right) -->
-                        <div class="video-section">
-                            <h3 class="media-section-title">Visit Video</h3>
-                            <div class="video-container-compact" onclick="zoomVideo(this)"
-                                style="cursor: pointer; height: 500px;">
-                                <video id="presentationVideo" controls>
-                                    <source src="1st Visit/WhatsApp Video 2026-02-06 at 2.57.34 PM.mp4"
-                                        type="video/mp4">
-                                    Your browser does not support the video tag.
-                                </video>
-                            </div>
-                            <div class="video-caption-compact">Product Showcase Video</div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-
-            <!-- Slide 5: 2nd Visit Shorki Title -->
-            <section class="slide" data-slide="5">
-                <div class="slide-content">
-                    <div class="title-wrapper">
-                        <h1 class="main-title">2nd Visit Shorki</h1>
-                        <div class="subtitle">Agricultural Products & Seeds Overview</div>
-                    </div>
-                    <div class="decorative-element"></div>
-                </div>
-            </section>
-
-            <!-- Slide 6: Inventory -->
-            <section class="slide" data-slide="6">
-                <div class="slide-content">
-                    <h2 class="slide-title">Items found Partially & paid full amount of items</h2>
-
-                    <!-- Excel Screenshot -->
-                    <div class="excel-screenshot"
-                        style="display: flex; justify-content: center; align-items: center; height: 75vh; padding: 20px;">
-                        <img src="2nd visit/Picture-1 Slide -5.png" alt="Inventory Excel Screenshot"
-                            style="max-width: 98%; max-height: 98%; object-fit: contain; border-radius: 15px; box-shadow: 0 8px 30px rgba(0,0,0,0.4);">
-                    </div>
-
-                </div>
-            </section>
-
-
-            <!-- Slide 7: Seeds -->
-            <section class="slide" data-slide="7">
-                <div class="slide-content">
-                    <h2 class="slide-title">Items Not found in store & paid full amount</h2>
-
-                    <!-- Seeds Screenshot -->
-                    <div class="excel-screenshot"
-                        style="display: flex; justify-content: center; align-items: center; height: 75vh; padding: 20px;">
-                        <img src="2nd visit/Picture-2 Slide -6.png" alt="Seeds Inventory Screenshot"
-                            style="max-width: 98%; max-height: 98%; object-fit: contain; border-radius: 15px; box-shadow: 0 8px 30px rgba(0,0,0,0.4);">
-                    </div>
-                </div>
-            </section>
-
-            <!-- Slide 8: Items Not found - Sheet 3 -->
-            <section class="slide" data-slide="8">
-                <div class="slide-content">
-                    <h2 class="slide-title">Additional Items Found in Store & Payment not Made</h2>
-                    <div class="excel-screenshot"
-                        style="display: flex; justify-content: center; align-items: center; height: 75vh; padding: 20px;">
-                        <img src="2nd visit/Picture-3 Slide -7.png" alt="Sheet 3 Screenshot"
-                            style="max-width: 98%; max-height: 98%; object-fit: contain; border-radius: 15px; box-shadow: 0 8px 30px rgba(0,0,0,0.4);">
-                    </div>
-                </div>
-            </section>
-
-            <!-- Slide 9: Featured Video -->
-            <section class="slide" data-slide="9">
-                <div class="slide-content">
-                    <h2 class="slide-title">2nd Visit - Video</h2>
-                    <div class="video-container" onclick="zoomVideo(this)"
-                        style="cursor: pointer; display: flex; justify-content: center; align-items: center; height: 75vh; padding: 20px;">
-                        <video id="video2_8" controls
-                            style="max-width: 98%; max-height: 98%; border-radius: 15px; box-shadow: 0 8px 30px rgba(0,0,0,0.4);">
-                            <source src="2nd visit/Vedio.mp4" type="video/mp4">
-                            Your browser does not support the video tag.
-                        </video>
-                    </div>
-                    <div class="video-caption" style="text-align: center; margin-top: 10px; font-weight: 600;">Vedio
-                    </div>
-                </div>
-            </section>
-
         </section>
 
-        <!-- Slide 10: Additional Items Part 2 -->
-        <section class="slide" data-slide="10">
+        <!-- Slide 2: 1st Visit Items Overview -->
+        <section class="slide" data-slide="2">
+            <div class="slide-content">
+                <h2 class="slide-title">First Visit Inventory</h2>
+                <div class="excel-screenshot"
+                    style="display: flex; justify-content: center; align-items: center; height: 75vh; padding: 20px;">
+                    <img src="1st Visit/Picture-3 Slide-3.png" alt="1st Visit Items Screenshot"
+                        style="max-width: 100%; max-height: 100%; border-radius: 15px; box-shadow: var(--glass-shadow); border: 2px solid var(--glass-border); object-fit: contain;"
+                        onclick="zoomImage(this)">
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Slide 3: 1st Visit Video -->
+        <section class="slide" data-slide="3">
+            <div class="slide-content">
+                <h2 class="slide-title">1st Visit Video</h2>
+                <div class="video-premium-frame" style="max-width: 1000px; margin: 0 auto;">
+                    <div class="video-container" onclick="zoomVideo(this)">
+                        <video src="1st Visit/WhatsApp Video 2026-02-06 at 2.57.34 PM.mp4"></video>
+                        <div class="video-overlay">
+                            <span class="play-icon">▶</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Slide 4: 1st Visit Media Gallery -->
+        <section class="slide" data-slide="4">
+            <div class="slide-content">
+                <h2 class="slide-title">Observation Images</h2>
+                <div class="images-grid-3" style="max-width: 1400px; margin: 0 auto; height: 68vh;">
+                    <div class="image-premium-frame">
+                        <div class="gallery-item" onclick="zoomImage(this)">
+                            <img src="1st Visit/WhatsApp Image 2026-02-06 at 3.17.18 PM.jpeg" alt="Items View 1">
+                            <div class="gallery-caption-compact">Items Inventory Overview</div>
+                        </div>
+                    </div>
+                    <div class="image-premium-frame">
+                        <div class="gallery-item" onclick="zoomImage(this)">
+                            <img src="1st Visit/WhatsApp Image 2026-02-06 at 3.17.19 PM.jpeg" alt="Items View 2">
+                            <div class="gallery-caption-compact">Store Stock Check</div>
+                        </div>
+                    </div>
+                    <div class="image-premium-frame">
+                        <div class="gallery-item" onclick="zoomImage(this)">
+                            <img src="1st Visit/WhatsApp Image 2026-02-06 at 3.17.19 PM (1).jpeg" alt="Items View 3">
+                            <div class="gallery-caption-compact">Product Verification</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Slide 5: Inventory Partially Paid -->
+        <section class="slide" data-slide="5">
+            <div class="slide-content">
+                <h2 class="slide-title">Inventory Partially Paid</h2>
+
+                <!-- Excel Screenshot -->
+                <div class="excel-screenshot"
+                    style="display: flex; justify-content: center; align-items: center; height: 75vh; padding: 20px;">
+                    <img src="2nd visit/Picture-1 Slide -5.png" alt="Inventory Excel Screenshot"
+                        style="max-width: 98%; max-height: 98%; object-fit: contain; border-radius: 15px; box-shadow: 0 8px 30px rgba(0,0,0,0.4);">
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- Slide 6: Items Not Found -->
+        <section class="slide" data-slide="6">
+            <div class="slide-content">
+                <h2 class="slide-title">Items Not Found</h2>
+
+                <!-- Seeds Screenshot -->
+                <div class="excel-screenshot"
+                    style="display: flex; justify-content: center; align-items: center; height: 75vh; padding: 20px;">
+                    <img src="2nd visit/Picture-2 Slide -6.png" alt="Seeds Inventory Screenshot"
+                        style="max-width: 98%; max-height: 98%; object-fit: contain; border-radius: 15px; box-shadow: 0 8px 30px rgba(0,0,0,0.4);">
+                </div>
+            </div>
+        </section>
+
+        <!-- Slide 7: Additional Items Found -->
+        <section class="slide" data-slide="7">
+            <div class="slide-content">
+                <h2 class="slide-title">Additional Items Found in Store & Payment not Made</h2>
+                <div class="excel-screenshot"
+                    style="display: flex; justify-content: center; align-items: center; height: 75vh; padding: 20px;">
+                    <img src="2nd visit/Picture-3 Slide -7.png" alt="Sheet 3 Screenshot"
+                        style="max-width: 98%; max-height: 98%; object-fit: contain; border-radius: 15px; box-shadow: 0 8px 30px rgba(0,0,0,0.4);">
+                </div>
+            </div>
+        </section>
+
+        <!-- Slide 8: Featured Video -->
+        <section class="slide" data-slide="8">
+            <div class="slide-content">
+                <h2 class="slide-title">2nd Visit Video</h2>
+                <div class="video-container" onclick="zoomVideo(this)"
+                    style="cursor: pointer; display: flex; justify-content: center; align-items: center; height: 75vh; padding: 20px;">
+                    <video id="video2_8" controls
+                        style="max-width: 98%; max-height: 98%; border-radius: 15px; box-shadow: 0 8px 30px rgba(0,0,0,0.4);">
+                        <source src="2nd visit/Vedio.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <div class="video-caption" style="text-align: center; margin-top: 10px; font-weight: 600;">Vedio
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- Slide 9: Additional Items Part 2 -->
+        <section class="slide" data-slide="9">
             <div class="slide-content">
                 <h2 class="slide-title">Additional Items Found in Store & Payment not Made</h2>
                 <div class="excel-screenshot"
@@ -398,10 +206,10 @@
             </div>
         </section>
 
-        <!-- Slide 11: Gallery - Part 1 -->
-        <section class="slide" data-slide="11">
+        <!-- Slide 10: Gallery Part 1 -->
+        <section class="slide" data-slide="10">
             <div class="slide-content">
-                <h2 class="slide-title">2nd Visit Gallery - Part 1</h2>
+                <h2 class="slide-title">2nd Visit Seeds Pictures</h2>
                 <div class="images-grid-large">
                     <div class="gallery-item-large" onclick="zoomImage(this)">
                         <img src="2nd visit/Chili.jpeg" alt="Chili">
@@ -440,10 +248,10 @@
         </section>
 
 
-        <!-- Slide 12: Gallery - Part 3 -->
-        <section class="slide" data-slide="12">
+        <!-- Slide 11: Gallery Part 3 -->
+        <section class="slide" data-slide="11">
             <div class="slide-content">
-                <h2 class="slide-title">2nd Visit Gallery - Part 3</h2>
+                <h2 class="slide-title">2nd Visit Seeds Pictures-2</h2>
                 <div class="images-grid-large">
                     <div class="gallery-item-large" onclick="zoomImage(this)">
                         <img src="2nd visit/WhatsApp Image 2026-01-19 at 11.55.51 AM.jpeg" alt="2026-01-19 11.55.51 AM">
@@ -465,12 +273,12 @@
             </div>
         </section>
 
-        </section>
 
-        <!-- Slide 13: Videos (Vertical Layout) -->
-        <section class="slide" data-slide="13">
+
+        <!-- Slide 12: Videos (Vertical Layout) -->
+        <section class="slide" data-slide="12">
             <div class="slide-content">
-                <h2 class="slide-title">2nd Visit Videos</h2>
+                <h2 class="slide-title">Seeds Videos</h2>
                 <div class="videos-grid-vertical">
                     <div class="video-item-vertical">
                         <div class="video-container-vertical" onclick="zoomVideo(this)" style="cursor: pointer;">
@@ -494,10 +302,10 @@
             </div>
         </section>
 
-        <!-- Slide 14: Additional Items Part 3 -->
-        <section class="slide" data-slide="14">
+        <!-- Slide 13: Additional Items -->
+        <section class="slide" data-slide="13">
             <div class="slide-content">
-                <h2 class="slide-title">Additional Items Found in Store & Payment not Made</h2>
+                <h2 class="slide-title">Additional Seeds</h2>
                 <div class="excel-screenshot"
                     style="display: flex; justify-content: center; align-items: center; height: 75vh; padding: 20px;">
                     <img src="2nd visit/Picture-4 Slide  -12.png" alt="Sheet 12 Screenshot"
@@ -506,8 +314,8 @@
             </div>
         </section>
 
-        <!-- Slide 15: Gallery - Part 4 -->
-        <section class="slide" data-slide="15">
+        <!-- Slide 14: Gallery Part 4 -->
+        <section class="slide" data-slide="14">
             <div class="slide-content">
                 <h2 class="slide-title">Additional Seeds Whatsapp by Mr. Waris</h2>
                 <div class="images-grid-large">
@@ -556,8 +364,8 @@
 
         </section>
 
-        <!-- Slide 16: Gallery - Consolidated -->
-        <section class="slide" data-slide="16">
+        <!-- Slide 15: Gallery Consolidated -->
+        <section class="slide" data-slide="15">
             <div class="slide-content">
                 <h2 class="slide-title">Additional Seeds Whatsapp by Mr. Waris</h2>
                 <div class="images-grid-large">
@@ -600,8 +408,8 @@
             </div>
         </section>
 
-        <!-- Slide 17: Vermi Compost Gallery -->
-        <section class="slide" data-slide="17">
+        <!-- Slide 16: Vermi Compost -->
+        <section class="slide" data-slide="16">
             <div class="slide-content">
                 <h2 class="slide-title">Vermi Compost Gallery</h2>
                 <div class="images-grid-large">
@@ -625,13 +433,26 @@
             </div>
         </section>
 
-        <!-- Slide 18: Crops Sales & Receivable -->
-        <section class="slide" data-slide="18">
+        <!-- Slide 17: Crops Sales & Receivable -->
+        <section class="slide" data-slide="17">
             <div class="slide-content">
                 <h2 class="slide-title">Crops Sales & Receivable</h2>
                 <div class="excel-screenshot"
                     style="display: flex; justify-content: center; align-items: center; height: 75vh; padding: 20px;">
                     <img src="Vermi Compost/Sales.png" alt="Sales Screenshot"
+                        style="max-width: 100%; max-height: 100%; border-radius: 15px; box-shadow: var(--glass-shadow); border: 2px solid var(--glass-border); object-fit: contain;"
+                        onclick="zoomImage(this)">
+                </div>
+            </div>
+        </section>
+
+        <!-- Slide 18: Other Sales Overview -->
+        <section class="slide" data-slide="18">
+            <div class="slide-content">
+                <h2 class="slide-title">Other Sales Overview</h2>
+                <div class="excel-screenshot"
+                    style="display: flex; justify-content: center; align-items: center; height: 75vh; padding: 20px;">
+                    <img src="Vermi Compost/Other Sales.png" alt="Other Sales Screenshot"
                         style="max-width: 100%; max-height: 100%; border-radius: 15px; box-shadow: var(--glass-shadow); border: 2px solid var(--glass-border); object-fit: contain;"
                         onclick="zoomImage(this)">
                 </div>
