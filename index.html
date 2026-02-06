@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="1st Visit - Agricultural Products Overview Presentation">
+    <title>1st Visit - Agricultural Products</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&family=Outfit:wght@400;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Progress Bar -->
+    <div class="progress-bar">
+        <div class="progress-fill" id="progressFill"></div>
+    </div>
+
+    <!-- Slide Counter -->
+    <div class="slide-counter" id="slideCounter">1 / 3</div>
+
+    <!-- Navigation Hints -->
+    <div class="nav-hint">
+        <span>← →</span> Navigate
+    </div>
+
+    <!-- Presentation Container -->
+    <div class="presentation-container" id="presentationContainer">
+
+        <!-- Slide 1: Title Slide -->
+        <section class="slide active" data-slide="1">
+            <div class="slide-content">
+                <div class="title-wrapper">
+                    <h1 class="main-title">1st Visit Shorki</h1>
+                    <div class="subtitle">Agricultural Products Overview</div>
+                </div>
+                <div class="decorative-element"></div>
+            </div>
+        </section>
+
+        <!-- Slide 2: Complete Inventory (2-Column Layout) -->
+        <section class="slide" data-slide="2">
+            <div class="slide-content">
+                <h2 class="slide-title">Complete Inventory</h2>
+                <div class="inventory-grid">
+                    <!-- Column 1 -->
+                    <div class="inventory-column">
+                        <table class="inventory-table">
+                            <thead>
+                                <tr>
+                                    <th>#</th>
+                                    <th>Item Name</th>
+                                    <th>Qty</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1</td>
+                                    <td>Peas</td>
+                                    <td>1</td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td>Tomato</td>
+                                    <td>12</td>
+                                </tr>
+                                <tr>
+                                    <td>3</td>
+                                    <td>Cucumber</td>
+                                    <td>6</td>
+                                </tr>
+                                <tr>
+                                    <td>4</td>
+                                    <td>Watermelon</td>
+                                    <td>6</td>
+                                </tr>
+                                <tr>
+                                    <td>5</td>
+                                    <td>Muskmelon</td>
+                                    <td>6</td>
+                                </tr>
+                                <tr>
+                                    <td>6</td>
+                                    <td>Okra</td>
+                                    <td>1</td>
+                                </tr>
+                                <tr>
+                                    <td>7</td>
+                                    <td>DAP</td>
+                                    <td>12</td>
+                                </tr>
+                                <tr>
+                                    <td>8</td>
+                                    <td>Urea</td>
+                                    <td>12</td>
+                                </tr>
+                                <tr>
+                                    <td>9</td>
+                                    <td>Potash</td>
+                                    <td>12</td>
+                                </tr>
+                                <tr>
+                                    <td>10</td>
+                                    <td>Zinc</td>
+                                    <td>12</td>
+                                </tr>
+                                <tr>
+                                    <td>11</td>
+                                    <td>Boron</td>
+                                    <td>12</td>
+                                </tr>
+                                <tr>
+                                    <td>12</td>
+                                    <td>Humic Acid</td>
+                                    <td>12</td>
+                                </tr>
+                                <tr>
+                                    <td>13</td>
+                                    <td>Micronutrient</td>
+                                    <td>12</td>
+                                </tr>
+                                <tr>
+                                    <td>14</td>
+                                    <td>Nitrophos</td>
+                                    <td>12</td>
+                                </tr>
+                                <tr>
+                                    <td>15</td>
+                                    <td>Calcium</td>
+                                    <td>12</td>
+                                </tr>
+                                <tr>
+                                    <td>16</td>
+                                    <td>Magnesium</td>
+                                    <td>12</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <!-- Column 2 -->
+                    <div class="inventory-column">
+                        <table class="inventory-table">
+                            <thead>
+                                <tr>
+                                    <th>#</th>
+                                    <th>Item Name</th>
+                                    <th>Qty</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>17</td>
+                                    <td>Sulphate</td>
+                                    <td>12</td>
+                                </tr>
+                                <tr>
+                                    <td>18</td>
+                                    <td>Ferrous</td>
+                                    <td>12</td>
+                                </tr>
+                                <tr>
+                                    <td>19</td>
+                                    <td>Manganese</td>
+                                    <td>3</td>
+                                </tr>
+                                <tr>
+                                    <td>20</td>
+                                    <td>Cocakpit</td>
+                                    <td>4</td>
+                                </tr>
+                                <tr>
+                                    <td>21</td>
+                                    <td>Oxyrich (Fungicides)</td>
+                                    <td>13</td>
+                                </tr>
+                                <tr>
+                                    <td>22</td>
+                                    <td>Sulphar (Fungicides)</td>
+                                    <td>17</td>
+                                </tr>
+                                <tr>
+                                    <td>23</td>
+                                    <td>Lagao</td>
+                                    <td>1</td>
+                                </tr>
+                                <tr>
+                                    <td>24</td>
+                                    <td>Trifioxy (Fungicides)</td>
+                                    <td>20</td>
+                                </tr>
+                                <tr>
+                                    <td>25</td>
+                                    <td>Manyu (Fungicides)</td>
+                                    <td>20</td>
+                                </tr>
+                                <tr>
+                                    <td>26</td>
+                                    <td>Plate</td>
+                                    <td>400</td>
+                                </tr>
+                                <tr>
+                                    <td>27</td>
+                                    <td>Madian (Fungicides)</td>
+                                    <td>12</td>
+                                </tr>
+                                <tr>
+                                    <td>28</td>
+                                    <td>Tazyab</td>
+                                    <td>2</td>
+                                </tr>
+                                <tr>
+                                    <td>29</td>
+                                    <td>Spray Pump</td>
+                                    <td>6</td>
+                                </tr>
+                                <tr>
+                                    <td>30</td>
+                                    <td>Solar Plates</td>
+                                    <td>6</td>
+                                </tr>
+                                <tr>
+                                    <td>31</td>
+                                    <td>Motor Pump</td>
+                                    <td>2</td>
+                                </tr>
+                                <tr>
+                                    <td>32</td>
+                                    <td>Vermicompost</td>
+                                    <td>66</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Slide 3: Media Gallery (Images + Video) -->
+        <section class="slide" data-slide="3">
+            <div class="slide-content">
+                <h2 class="slide-title">1st Visit Gallery</h2>
+                <div class="media-grid">
+                    <!-- Images Section (Left) -->
+                    <div class="images-section">
+                        <h3 class="media-section-title">Visit Pictures</h3>
+                        <div class="images-container" style="height: auto; max-height: 520px;">
+                            <div class="images-grid-2-1">
+                                <div class="gallery-item-large" onclick="zoomImage(this)">
+                                    <img src="1st Visit/WhatsApp Image 2026-02-06 at 3.17.18 PM.jpeg" alt="Peas bags">
+                                    <div class="gallery-caption-compact">Fertilizer & Seed Bags</div>
+                                </div>
+                                <div class="gallery-item-large" onclick="zoomImage(this)">
+                                    <img src="1st Visit/WhatsApp Image 2026-02-06 at 3.17.19 PM (1).jpeg"
+                                        alt="Seeds in bag">
+                                    <div class="gallery-caption-compact">Seeds Collection</div>
+                                </div>
+                                <div class="gallery-item-large" onclick="zoomImage(this)" style="height: 240px;">
+                                    <img src="1st Visit/WhatsApp Image 2026-02-06 at 3.17.19 PM.jpeg" alt="Okra seeds">
+                                    <div class="gallery-caption-compact">Okra Seeds</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Video Section (Right) -->
+                    <div class="video-section">
+                        <h3 class="media-section-title">Visit Video</h3>
+                        <div class="video-container-compact" onclick="zoomVideo(this)"
+                            style="cursor: pointer; height: 500px;">
+                            <video id="presentationVideo" controls>
+                                <source src="1st Visit/WhatsApp Video 2026-02-06 at 2.57.34 PM.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                        <div class="video-caption-compact">Product Showcase Video</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Slide 4: 2nd Visit Shorki Title -->
+        <section class="slide" data-slide="4">
+            <div class="slide-content">
+                <div class="title-wrapper">
+                    <h1 class="main-title">2nd Visit Shorki</h1>
+                    <div class="subtitle">Agricultural Products & Seeds Overview</div>
+                    <div class="date-badge">January 2026</div>
+                </div>
+                <div class="decorative-element"></div>
+            </div>
+        </section>
+
+        <!-- Slide 5: Inventory -->
+        <section class="slide" data-slide="5">
+            <div class="slide-content">
+                <h2 class="slide-title">Items found Partially & paid full amount of items</h2>
+
+                <!-- Excel Screenshot -->
+                <div class="excel-screenshot"
+                    style="display: flex; justify-content: center; align-items: center; height: 75vh; padding: 20px;">
+                    <img src="2nd visit/Picture-1 Slide -5.png" alt="Inventory Excel Screenshot"
+                        style="max-width: 98%; max-height: 98%; object-fit: contain; border-radius: 15px; box-shadow: 0 8px 30px rgba(0,0,0,0.4);">
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- Slide 6: Seeds -->
+        <section class="slide" data-slide="6">
+            <div class="slide-content">
+                <h2 class="slide-title">Items Not found in store & paid full amount</h2>
+
+                <!-- Seeds Screenshot -->
+                <div class="excel-screenshot"
+                    style="display: flex; justify-content: center; align-items: center; height: 75vh; padding: 20px;">
+                    <img src="2nd visit/Picture-2 Slide -6.png" alt="Seeds Inventory Screenshot"
+                        style="max-width: 98%; max-height: 98%; object-fit: contain; border-radius: 15px; box-shadow: 0 8px 30px rgba(0,0,0,0.4);">
+                </div>
+            </div>
+        </section>
+
+        <!-- Slide 7: Items Not found - Sheet 3 -->
+        <section class="slide" data-slide="7">
+            <div class="slide-content">
+                <h2 class="slide-title">Additional Items Found in Store & Payment not Made</h2>
+                <div class="excel-screenshot"
+                    style="display: flex; justify-content: center; align-items: center; height: 75vh; padding: 20px;">
+                    <img src="2nd visit/Picture-3 Slide -7.png" alt="Sheet 3 Screenshot"
+                        style="max-width: 98%; max-height: 98%; object-fit: contain; border-radius: 15px; box-shadow: 0 8px 30px rgba(0,0,0,0.4);">
+                </div>
+            </div>
+        </section>
+
+        <!-- Slide 8: Featured Video -->
+        <section class="slide" data-slide="8">
+            <div class="slide-content">
+                <h2 class="slide-title">2nd Visit - Video</h2>
+                <div class="video-container" onclick="zoomVideo(this)"
+                    style="cursor: pointer; display: flex; justify-content: center; align-items: center; height: 75vh; padding: 20px;">
+                    <video id="video2_8" controls
+                        style="max-width: 98%; max-height: 98%; border-radius: 15px; box-shadow: 0 8px 30px rgba(0,0,0,0.4);">
+                        <source src="2nd visit/Vedio.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <div class="video-caption" style="text-align: center; margin-top: 10px; font-weight: 600;">Vedio</div>
+            </div>
+        </section>
+
+        </section>
+
+        <!-- Slide 9: Additional Items Part 2 -->
+        <section class="slide" data-slide="9">
+            <div class="slide-content">
+                <h2 class="slide-title">Additional Items Found in Store & Payment not Made</h2>
+                <div class="excel-screenshot"
+                    style="display: flex; justify-content: center; align-items: center; height: 75vh; padding: 20px;">
+                    <img src="2nd visit/Picture -4 Slide -9.png" alt="Sheet 4 Screenshot"
+                        style="max-width: 98%; max-height: 98%; object-fit: contain; border-radius: 15px; box-shadow: 0 8px 30px rgba(0,0,0,0.4);">
+                </div>
+            </div>
+        </section>
+
+        <!-- Slide 10: Gallery - Part 1 -->
+        <section class="slide" data-slide="10">
+            <div class="slide-content">
+                <h2 class="slide-title">2nd Visit Gallery - Part 1</h2>
+                <div class="images-grid-large">
+                    <div class="gallery-item-large" onclick="zoomImage(this)">
+                        <img src="2nd visit/Chili.jpeg" alt="Chili">
+                        <div class="gallery-caption">Chili</div>
+                    </div>
+                    <div class="gallery-item-large" onclick="zoomImage(this)">
+                        <img src="2nd visit/Chilli.jpeg" alt="Chilli">
+                        <div class="gallery-caption">Chilli</div>
+                    </div>
+                    <div class="gallery-item-large" onclick="zoomImage(this)">
+                        <img src="2nd visit/Watermelon.jpeg" alt="Watermelon">
+                        <div class="gallery-caption">Watermelon</div>
+                    </div>
+                    <div class="gallery-item-large" onclick="zoomImage(this)">
+                        <img src="2nd visit/WhatsApp Image 2026-01-15 at 5.43.00 PM.jpeg" alt="2026-01-15 5.43.00 PM">
+                        <div class="gallery-caption">2026-01-15 5.43.00 PM</div>
+                    </div>
+                    <div class="gallery-item-large" onclick="zoomImage(this)">
+                        <img src="2nd visit/WhatsApp Image 2026-01-16 at 12.39.42 PM.jpeg" alt="2026-01-16 12.39.42 PM">
+                        <div class="gallery-caption">2026-01-16 12.39.42 PM</div>
+                    </div>
+                    <div class="gallery-item-large" onclick="zoomImage(this)">
+                        <img src="2nd visit/WhatsApp Image 2026-01-16 at 12.39.59 PM (1).jpeg"
+                            alt="2026-01-16 12.39.59 PM (1)">
+                        <div class="gallery-caption">2026-01-16 12.39.59 PM (1)</div>
+                    </div>
+                    <div class="gallery-item-large" onclick="zoomImage(this)">
+                        <img src="2nd visit/WhatsApp Image 2026-01-16 at 12.39.59 PM.jpeg" alt="2026-01-16 12.39.59 PM">
+                        <div class="gallery-caption">2026-01-16 12.39.59 PM</div>
+                    </div>
+                    <div class="gallery-item-large" onclick="zoomImage(this)">
+                        <img src="2nd visit/WhatsApp Image 2026-01-19 at 11.54.25 AM.jpeg" alt="2026-01-19 11.54.25 AM">
+                        <div class="gallery-caption">2026-01-19 11.54.25 AM</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Slide 11: Gallery - Part 3 -->
+        <section class="slide" data-slide="11">
+            <div class="slide-content">
+                <h2 class="slide-title">2nd Visit Gallery - Part 3</h2>
+                <div class="images-grid-large">
+                    <div class="gallery-item-large" onclick="zoomImage(this)">
+                        <img src="2nd visit/WhatsApp Image 2026-01-19 at 11.55.51 AM.jpeg" alt="2026-01-19 11.55.51 AM">
+                        <div class="gallery-caption">2026-01-19 11.55.51 AM</div>
+                    </div>
+                    <div class="gallery-item-large" onclick="zoomImage(this)">
+                        <img src="2nd visit/WhatsApp Image 2026-01-19 at 11.55.52 AM.jpeg" alt="2026-01-19 11.55.52 AM">
+                        <div class="gallery-caption">2026-01-19 11.55.52 AM</div>
+                    </div>
+                    <div class="gallery-item-large" onclick="zoomImage(this)">
+                        <img src="2nd visit/WhatsApp Image 2026-01-19 at 11.55.55 AM.jpeg" alt="2026-01-19 11.55.55 AM">
+                        <div class="gallery-caption">2026-01-19 11.55.55 AM</div>
+                    </div>
+                    <div class="gallery-item-large" onclick="zoomImage(this)">
+                        <img src="2nd visit/WhatsApp Image 2026-01-19 at 11.56.04 AM.jpeg" alt="2026-01-19 11.56.04 AM">
+                        <div class="gallery-caption">2026-01-19 11.56.04 AM</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        </section>
+
+        <!-- Slide 12: Videos (Vertical Layout) -->
+        <section class="slide" data-slide="12">
+            <div class="slide-content">
+                <h2 class="slide-title">2nd Visit Videos</h2>
+                <div class="videos-grid-vertical">
+                    <div class="video-item-vertical">
+                        <div class="video-container-vertical" onclick="zoomVideo(this)" style="cursor: pointer;">
+                            <video id="video2_12_0" controls>
+                                <source src="2nd visit/WhatsApp Video 2026-02-06 at 4.17.58 PM.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                        <div class="video-caption">2026-02-06 4.17.58 PM</div>
+                    </div>
+                    <div class="video-item-vertical">
+                        <div class="video-container-vertical" onclick="zoomVideo(this)" style="cursor: pointer;">
+                            <video id="video2_12_1" controls>
+                                <source src="2nd visit/WhatsApp Video 2026-02-06 at 4.17.59 PM.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                        <div class="video-caption">2026-02-06 4.17.59 PM</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Slide 13: Additional Items Part 3 -->
+        <section class="slide" data-slide="13">
+            <div class="slide-content">
+                <h2 class="slide-title">Additional Items Found in Store & Payment not Made</h2>
+                <div class="excel-screenshot"
+                    style="display: flex; justify-content: center; align-items: center; height: 75vh; padding: 20px;">
+                    <img src="2nd visit/Picture-4 Slide  -12.png" alt="Sheet 12 Screenshot"
+                        style="max-width: 98%; max-height: 98%; object-fit: contain; border-radius: 15px; box-shadow: 0 8px 30px rgba(0,0,0,0.4);">
+                </div>
+            </div>
+        </section>
+
+        <!-- Slide 14: Gallery - Part 4 -->
+        <section class="slide" data-slide="14">
+            <div class="slide-content">
+                <h2 class="slide-title">Additional Seeds Whatsapp by Mr. Waris</h2>
+                <div class="images-grid-large">
+                    <div class="gallery-item-large" onclick="zoomImage(this)">
+                        <img src="2nd visit/WhatsApp Image 2026-01-19 at 11.56.05 AM.jpeg" alt="2026-01-19 11.56.05 AM">
+                        <div class="gallery-caption">2026-01-19 11.56.05 AM</div>
+                    </div>
+                    <div class="gallery-item-large" onclick="zoomImage(this)">
+                        <img src="2nd visit/Addtition seeds/WhatsApp Image 2026-01-19 at 11.56.08 AM (1).jpeg"
+                            alt="2026-01-19 11.56.08 AM (1)">
+                        <div class="gallery-caption">2026-01-19 11.56.08 AM (1)</div>
+                    </div>
+                    <div class="gallery-item-large" onclick="zoomImage(this)">
+                        <img src="2nd visit/Addtition seeds/WhatsApp Image 2026-01-19 at 11.56.08 AM.jpeg"
+                            alt="2026-01-19 11.56.08 AM">
+                        <div class="gallery-caption">2026-01-19 11.56.08 AM</div>
+                    </div>
+                    <div class="gallery-item-large" onclick="zoomImage(this)">
+                        <img src="2nd visit/Addtition seeds/WhatsApp Image 2026-01-19 at 11.56.09 AM.jpeg"
+                            alt="2026-01-19 11.56.09 AM">
+                        <div class="gallery-caption">2026-01-19 11.56.09 AM</div>
+                    </div>
+                    <div class="gallery-item-large" onclick="zoomImage(this)">
+                        <img src="2nd visit/Addtition seeds/WhatsApp Image 2026-01-19 at 11.56.10 AM.jpeg"
+                            alt="2026-01-19 11.56.10 AM">
+                        <div class="gallery-caption">2026-01-19 11.56.10 AM</div>
+                    </div>
+                    <div class="gallery-item-large" onclick="zoomImage(this)">
+                        <img src="2nd visit/Addtition seeds/WhatsApp Image 2026-01-19 at 11.56.12 AM.jpeg"
+                            alt="2026-01-19 11.56.12 AM">
+                        <div class="gallery-caption">2026-01-19 11.56.12 AM</div>
+                    </div>
+                    <div class="gallery-item-large" onclick="zoomImage(this)">
+                        <img src="2nd visit/Addtition seeds/WhatsApp Image 2026-01-19 at 11.56.13 AM.jpeg"
+                            alt="2026-01-19 11.56.13 AM">
+                        <div class="gallery-caption">2026-01-19 11.56.13 AM</div>
+                    </div>
+                    <div class="gallery-item-large" onclick="zoomImage(this)">
+                        <img src="2nd visit/Addtition seeds/WhatsApp Image 2026-01-19 at 11.56.14 AM (1).jpeg"
+                            alt="2026-01-19 11.56.14 AM (1)">
+                        <div class="gallery-caption">2026-01-19 11.56.14 AM (1)</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        </section>
+
+        <!-- Slide 15: Gallery - Consolidated -->
+        <section class="slide" data-slide="15">
+            <div class="slide-content">
+                <h2 class="slide-title">Additional Seeds Whatsapp by Mr. Waris</h2>
+                <div class="images-grid-large">
+                    <div class="gallery-item-large" onclick="zoomImage(this)">
+                        <img src="2nd visit/Addtition seeds/WhatsApp Image 2026-01-19 at 11.56.14 AM (2).jpeg"
+                            alt="2026-01-19 11.56.14 AM (2)">
+                        <div class="gallery-caption">2026-01-19 11.56.14 AM (2)</div>
+                    </div>
+                    <div class="gallery-item-large" onclick="zoomImage(this)">
+                        <img src="2nd visit/Addtition seeds/WhatsApp Image 2026-01-19 at 11.56.14 AM.jpeg"
+                            alt="2026-01-19 11.56.14 AM">
+                        <div class="gallery-caption">2026-01-19 11.56.14 AM</div>
+                    </div>
+                    <div class="gallery-item-large" onclick="zoomImage(this)">
+                        <img src="2nd visit/Addtition seeds/WhatsApp Image 2026-01-19 at 11.56.15 AM.jpeg"
+                            alt="2026-01-19 11.56.15 AM">
+                        <div class="gallery-caption">2026-01-19 11.56.15 AM</div>
+                    </div>
+                    <div class="gallery-item-large" onclick="zoomImage(this)">
+                        <img src="2nd visit/Addtition seeds/WhatsApp Image 2026-01-19 at 12.51.44 PM.jpeg"
+                            alt="2026-01-19 12.51.44 PM">
+                        <div class="gallery-caption">2026-01-19 12.51.44 PM</div>
+                    </div>
+                    <div class="gallery-item-large" onclick="zoomImage(this)">
+                        <img src="2nd visit/Addtition seeds/WhatsApp Image 2026-01-19 at 12.52.26 PM.jpeg"
+                            alt="2026-01-19 12.52.26 PM">
+                        <div class="gallery-caption">2026-01-19 12.52.26 PM</div>
+                    </div>
+                    <div class="gallery-item-large" onclick="zoomImage(this)">
+                        <img src="2nd visit/Addtition seeds/WhatsApp Image 2026-01-19 at 12.53.05 PM.jpeg"
+                            alt="2026-01-19 12.53.05 PM">
+                        <div class="gallery-caption">2026-01-19 12.53.05 PM</div>
+                    </div>
+                    <div class="gallery-item-large" onclick="zoomImage(this)">
+                        <img src="2nd visit/Addtition seeds/WhatsApp Image 2026-01-19 at 12.54.36 PM.jpeg"
+                            alt="2026-01-19 12.54.36 PM">
+                        <div class="gallery-caption">2026-01-19 12.54.36 PM</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Slide 16: Vermi Compost Gallery -->
+        <section class="slide" data-slide="16">
+            <div class="slide-content">
+                <h2 class="slide-title">Vermi Compost Gallery</h2>
+                <div class="images-grid-large">
+                    <div class="gallery-item-large" onclick="zoomImage(this)">
+                        <img src="Vermi Compost/WhatsApp Image 2026-02-06 at 3.44.52 PM.jpeg" alt="Vermi Compost 1">
+                        <div class="gallery-caption">Vermi Compost - View 1</div>
+                    </div>
+                    <div class="gallery-item-large" onclick="zoomImage(this)">
+                        <img src="Vermi Compost/WhatsApp Image 2026-02-06 at 3.44.52 PM (1).jpeg" alt="Vermi Compost 2">
+                        <div class="gallery-caption">Vermi Compost - View 2</div>
+                    </div>
+                    <div class="gallery-item-large" onclick="zoomImage(this)">
+                        <img src="Vermi Compost/WhatsApp Image 2026-02-06 at 3.44.53 PM.jpeg" alt="Vermi Compost 3">
+                        <div class="gallery-caption">Vermi Compost - View 3</div>
+                    </div>
+                    <div class="gallery-item-large" onclick="zoomImage(this)">
+                        <img src="Vermi Compost/WhatsApp Image 2026-02-06 at 3.44.53 PM (1).jpeg" alt="Vermi Compost 4">
+                        <div class="gallery-caption">Vermi Compost - View 4</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    <!-- Image/Video Zoom Modal -->
+    <div class="zoom-modal" id="zoomModal" onclick="closeZoom()">
+        <span class="zoom-close">&times;</span>
+        <img class="zoom-content" id="zoomedImage">
+        <video class="zoom-content" id="zoomedVideo" controls></video>
+        <div class="zoom-caption" id="zoomCaption"></div>
+    </div>
+
+    <!-- Navigation Buttons -->
+    <button class="nav-btn nav-prev" id="prevBtn" aria-label="Previous slide">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <polyline points="15 18 9 12 15 6"></polyline>
+        </svg>
+    </button>
+    <button class="nav-btn nav-next" id="nextBtn" aria-label="Next slide">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <polyline points="9 18 15 12 9 6"></polyline>
+        </svg>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

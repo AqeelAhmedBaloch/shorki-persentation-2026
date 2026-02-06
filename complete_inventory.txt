@@ -1,0 +1,24 @@
+1|Vermi Compost|200
+2|Organic Matter + Sulpar [ Fungicides ]|14
+3|Calalist (FMC)|7
+4|Headland Multi 500mg|5
+5|Sponge Gourd(1101)|39
+6|Parlek Cucumber|6
+7|Gherkin Cucumber F1|16
+8|Tomato King F1|50
+9|Sea Weed 18 Bottles @ 6 Litre per bottle|Nill
+10|Zinc  Star (FMC 27- soil condition) Bag @ 3Kg|Nill
+11|Peat Moss|Nill
+12|Tervalis 3kg (soil condition)|Nill
+13|Sona Uria|Nill
+14|P44 Ultra col 18-44-0|Nill
+15|Gypsum|Nill
+16|Bordox Super 1 Litre|Nill
+17|floki 200ML|Nill
+18|Zinc Pro 3ME 250ml|Nill
+19|Fenikal 10ME 500ml|Nill
+20|Endee 500wg|Nill
+21|Maxel 72 wp|Nill
+22|Perlite 400gm|Nill
+23|Aliette 80wp|Nill
+24|Antracol 70wp|Nill

@@ -1,0 +1,16 @@
+PRESENTATION STRUCTURE
+================================================================================
+
+1ST VISIT (Slides 1-3):
+  - Slide 1: Title
+  - Slide 2: Inventory
+  - Slide 3: Pictures + Video
+
+2ND VISIT (Slides 4-15):
+  - Slide 4: Title
+  - Slide 5: Inventory (53 items)
+  - Slide 6: Seeds (31 items)
+  - Slides 7-13: Images (27 total)
+  - Slides 14-15: Videos (4 total)
+
+TOTAL SLIDES: 15

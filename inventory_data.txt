@@ -1,0 +1,58 @@
+INVENTORY:
+1|Vermi Compost|200
+2|Organic Matter + Sulpar [ Fungicides ]|14
+3|Calalist (FMC)|7
+4|Headland Multi 500mg|5
+5|Sponge Gourd(1101)|39
+6|Parlek Cucumber|6
+7|Gherkin Cucumber F1|16
+8|Tomato King F1|50
+9|Sea Weed 18 Bottles @ 6 Litre per bottle|Nill
+10|Zinc  Star (FMC 27- soil condition) Bag @ 3Kg|Nill
+11|Peat Moss|Nill
+12|Tervalis 3kg (soil condition)|Nill
+13|Sona Uria|Nill
+14|P44 Ultra col 18-44-0|Nill
+15|Gypsum|Nill
+16|Bordox Super 1 Litre|Nill
+17|floki 200ML|Nill
+18|Zinc Pro 3ME 250ml|Nill
+19|Fenikal 10ME 500ml|Nill
+20|Endee 500wg|Nill
+21|Maxel 72 wp|Nill
+22|Perlite 400gm|Nill
+23|Aliette 80wp|Nill
+24|Antracol 70wp|Nill
+
+SEEDS:
+1|Hybrid Squash Hammer F1|100 gm
+2|Round Squash|100 gm
+3|Green Chilli|1 Pkt
+4|Hybrid Revati Muskmelon F1|1 Pkt
+5|Garjana 550 F1|1 Pkt
+6|F1 Hybrid Watermelon|1 Pkt
+7|Maro gourd|650gm
+8|Hybrid Tinda Seeds MTNH 1|1 Pkt
+9|Watermelon Seeds|300 gm
+10|Chilli's|150gm
+11|Watermelon Seeds|150gm
+12|Brinjal Barlok F1|3 Pkt
+13|Squash F1|2 Pkt
+14|Hybrid Victoria F1|20 Pkt
+15|Pea Seeds|15kg
+16|Chilli Seeds bag|250 gm
+17|Hybrid Okra Fatema F1|17kg
+18|Cotton Seed Variety k-5|4 Pkt
+19|Cotton Seed k-6|3 PKt
+20|Cotton Seed k-4|2 Pkt
+21|Hybrid Ridge Gourd Kiran F1|20 PKt
+22|Dong Tien Vang|9 Pkt
+23|Lettuce Seeds|1 Can
+24|3 Variety Hybrid Cucumber|1000 seeds
+25|Specie: Hydbrid Cucumber|2500 seeds
+26|Cucumber|2500 seeds
+27|Boro F1|1000 Seeds
+28|Ridge Luffa's Trial Seed|50gm
+29|Chilli's  trials|15gm
+30|Bitter Gourd's|50gm
+31|Smooth Lufa's|50 gm

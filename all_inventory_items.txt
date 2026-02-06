@@ -1,0 +1,81 @@
+LEFT_SIDE:
+1|Vermi Compost|250
+2|Organic Matter + Sulpar|25
+3|Calalist (FMC)|9
+4|Headland Multi 500mg|9
+5|Sponge Gourd(1101)|50
+6|Parlek Cucumber|50
+7|Gherkin Cucumber F1|50
+8|Tomato King F1|50
+9|Sea Weed 18 Bottles @ 6 Litre per bottle|10000
+10|Zinc  Star (FMC 27- soil condition) 
+Bag @ 3Kg|2389
+11|Peat Moss|4
+12|Tervalis 3kg (soil condition)|15
+13|Sona Uria|9
+14|P44 Ultra col 18-44-0|8
+15|Gypsum|300
+16|Bordox Super 1 Litre|7
+17|floki 200ML|7
+18|Zinc Pro 3ME 250ml|7
+19|Fenikal 10ME 500ml|7
+20|Endee 500wg|7
+21|Maxel 72 wp|7
+22|Perlite 400gm|30
+23|Aliette 80wp|7
+24|Antracol 70wp|7
+25|Additional Items|
+26|Domark [ Fungicides ]|Nill
+27|Finer [ Fungicides ]|Nill
+28|Green Soul|Nill
+29|Oxyrich [ Fungicides ]|Nill
+30|Lagao|Nill
+31|Trifioxy [ Fungicides ]|Nill
+32|manyu [ Fungicides ]|Nill
+33|Fertum|Nill
+34|Profile  [ Fungicides ]|Nill
+35|Zabyan [ Fungicides ]|Nill
+36|Speed Full|Nill
+37|Amigo|Nill
+38|Nanok [ Fungicides ]|Nill
+39|Airone [ Fungicides ]|Nill
+40|Mixtan [ Fungicides ]|Nill
+41|Sea Mix|Nill
+42|Difenoconazole  [ Fungicides ]|Nill
+43|Har bour|Nill
+44|Infinto [ Fungicides ]|Nill
+45|Ambition|Nill
+46|Dipterex|Nill
+47|Cocakpit|Nill
+48|Madain [ Fungicides ]|Nill
+49|Tazyab|Nill
+50|Grow liquid|Nill
+51|Neem oil|Nill
+52|Blue power|Nill
+53|Mis. Seeds|Nill
+
+RIGHT_SIDE:
+1|Vermi Compost|200
+2|Organic Matter + Sulpar [ Fungicides ]|14
+3|Calalist (FMC)|7
+4|Headland Multi 500mg|5
+5|Sponge Gourd(1101)|39
+6|Parlek Cucumber|6
+7|Gherkin Cucumber F1|16
+8|Tomato King F1|50
+9|Sea Weed 18 Bottles @ 6 Litre per bottle|Nill
+10|Zinc  Star (FMC 27- soil condition) Bag @ 3Kg|Nill
+11|Peat Moss|Nill
+12|Tervalis 3kg (soil condition)|Nill
+13|Sona Uria|Nill
+14|P44 Ultra col 18-44-0|Nill
+15|Gypsum|Nill
+16|Bordox Super 1 Litre|Nill
+17|floki 200ML|Nill
+18|Zinc Pro 3ME 250ml|Nill
+19|Fenikal 10ME 500ml|Nill
+20|Endee 500wg|Nill
+21|Maxel 72 wp|Nill
+22|Perlite 400gm|Nill
+23|Aliette 80wp|Nill
+24|Antracol 70wp|Nill

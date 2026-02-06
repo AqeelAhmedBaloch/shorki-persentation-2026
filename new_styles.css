@@ -1,0 +1,94 @@
+/* ===== NEW STYLES FOR 2ND VISIT SLIDES ===== */
+
+/* Large Image Grid (4 images per slide) */
+.images-grid-large {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--spacing-md);
+    padding: var(--spacing-sm);
+}
+
+.gallery-item-large {
+    position: relative;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: var(--glass-shadow);
+    border: 2px solid var(--glass-border);
+    transition: all var(--transition-normal);
+    cursor: pointer;
+    background: var(--glass-bg);
+    backdrop-filter: blur(10px);
+}
+
+.gallery-item-large:hover {
+    transform: translateY(-8px) scale(1.02);
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.6), 0 0 40px rgba(102, 126, 234, 0.5);
+    border-color: var(--accent-color);
+}
+
+.gallery-item-large img {
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+    display: block;
+}
+
+.gallery-caption {
+    padding: var(--spacing-xs);
+    text-align: center;
+    font-size: 0.85rem;
+    color: var(--text-color);
+    background: rgba(0, 0, 0, 0.3);
+    font-weight: 500;
+}
+
+/* Videos Grid (2 videos per slide) */
+.videos-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--spacing-md);
+    padding: var(--spacing-sm);
+}
+
+.video-item-large {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-xs);
+}
+
+.video-container-large {
+    position: relative;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: var(--glass-shadow);
+    border: 2px solid var(--glass-border);
+    background: var(--glass-bg);
+    backdrop-filter: blur(10px);
+    transition: all var(--transition-normal);
+    height: 450px;
+}
+
+.video-container-large:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.6), 0 0 40px rgba(102, 126, 234, 0.5);
+    border-color: var(--accent-color);
+}
+
+.video-container-large video {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+    background: #000;
+}
+
+.video-caption {
+    text-align: center;
+    font-size: 0.9rem;
+    color: var(--text-color);
+    font-weight: 500;
+    padding: var(--spacing-xs);
+    background: var(--glass-bg);
+    border-radius: 8px;
+    border: 1px solid var(--glass-border);
+}
