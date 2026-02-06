@@ -963,20 +963,28 @@ body::before {
 }
 
 @media (max-width: 480px) {
-    .stats-grid {
-        grid-template-columns: 1fr;
+
+    .stats-grid,
+    .category-list,
+    .product-grid,
+    .equipment-list,
+    .images-grid-2-1,
+    .videos-grid-vertical,
+    .images-grid-large {
+        grid-template-columns: 1fr !important;
     }
 
-    .category-list {
-        grid-template-columns: 1fr;
+    .images-grid-2-1>div:nth-child(3) {
+        grid-column: span 1 !important;
     }
 
-    .product-grid {
-        grid-template-columns: 1fr;
+    .video-container-vertical,
+    .video-container-compact {
+        height: 300px !important;
     }
 
-    .equipment-list {
-        grid-template-columns: 1fr;
+    .gallery-item-large img {
+        height: 250px !important;
     }
 }
 
