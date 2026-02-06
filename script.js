@@ -15,22 +15,23 @@ class PresentationController {
         // Slide headings
         this.slideHeadings = {
             1: "1st Visit - Title",
-            2: "1st Visit - Inventory",
-            3: "1st Visit - Gallery",
-            4: "2nd Visit - Title",
-            5: "2nd Visit - Inventory Partially",
-            6: "2nd Visit - Items Not found",
-            7: "2nd Visit - Additional Items",
-            8: "2nd Visit - Video",
-            9: "2nd Visit - Additional Items Part 2",
-            10: "2nd Visit - Gallery Part 1",
-            11: "2nd Visit - Gallery Part 3",
-            12: "2nd Visit - Videos",
-            13: "2nd Visit - Additional Items",
-            14: "2nd Visit - Gallery Part 4",
-            15: "2nd Visit - Gallery Consolidated",
-            16: "Vermi Compost Gallery",
-            17: "Vermi Compost Sales"
+            2: "Interactive Index",
+            3: "1st Visit - Inventory",
+            4: "1st Visit - Gallery",
+            5: "2nd Visit - Title",
+            6: "2nd Visit - Inventory Partially",
+            7: "2nd Visit - Items Not found",
+            8: "2nd Visit - Additional Items",
+            9: "2nd Visit - Video",
+            10: "2nd Visit - Additional Items Part 2",
+            11: "2nd Visit - Gallery Part 1",
+            12: "2nd Visit - Gallery Part 3",
+            13: "2nd Visit - Videos",
+            14: "2nd Visit - Additional Items Part 3",
+            15: "2nd Visit - Gallery Part 4",
+            16: "2nd Visit - Gallery Consolidated",
+            17: "Vermi Compost Gallery",
+            18: "Crops Sales & Receivable"
         };
 
         this.init();
